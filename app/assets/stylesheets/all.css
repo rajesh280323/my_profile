@@ -1,0 +1,28 @@
+/*.write-text {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.write-text {
+  overflow: hidden;
+  border-right: 2px solid #000;
+  white-space: nowrap;
+  margin: 0 auto;
+  font-size: 24px;
+  display: inline-block;
+  animation: typing 5s steps(300) infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.write-text::after {
+  content: '...'; 
+  animation: blink-caret 5s infinite;
+}*/
